@@ -1,0 +1,94 @@
+/* NOTE: Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+/* NOTE: Body Styles */
+body {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+/* NOTE: Header Styles */
+header {
+
+}
+header h1 {
+  font-size: 5em;
+  color: red;
+}
+/* NOTE: Navigation Styles */
+nav {
+  padding: 10px;
+  background-color: rgba(88, 88, 88, 0.6);
+}
+nav ul {
+
+}
+nav ul li {
+  display: inline-block;
+  padding: 0 25px;
+}
+nav ul > li {
+  padding-left: 0;
+}
+nav ul li a {
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+/* NOTE: Section Styles */
+section {
+  text-align: left;
+}
+section img {
+  display: block;
+  margin: auto;
+  height: 300px;
+  width: inherit;
+}
+section ul {
+}
+section ul li {
+
+}
+section ul li h2 {
+  font-size: 3em;
+  border: double rgba(88, 88, 88, 0.6);
+  margin: 5px;
+  padding: 5px;
+  color: red;
+}
+section ul p {
+  margin-left: 80px;
+  font-size: 1.7em;
+  color: white;
+}
+#main ul li {
+  margin-left: 80px;
+  list-style-type: disc;
+  color: white;
+}
+#main article p {
+  margin: 40px;
+  font-weight: bold;
+  color: red;
+}
+#main article blockquote {
+  text-align: center;
+  color: white;
+  max-width: 500px;
+  margin: 0 auto 0 auto;
+}
+iframe {
+  display: block;
+  margin: 0 auto 0 auto;
+}
+/* NOTE: Footer Style */
+footer {
+  padding: 10px;
+  background-color: rgba(88, 88, 88, 0.6);
+}
+footer p {
+  color: white;
+}
